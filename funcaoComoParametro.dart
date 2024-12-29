@@ -13,3 +13,5 @@ void saudacoes(String? cliente, {required Function corpo}) {
   print('Saudações, ${cliente}!');
   funcao();//Hoje o dia está chuvoso
 }
+
+
