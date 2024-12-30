@@ -12,3 +12,7 @@ void main() {
     print(nome);
   }
 }
+
+//Resumo: O operador ?? é uma maneira mais compacta e eficiente de lidar com
+// valores nulos em Dart. Ele é especialmente útil quando você quer fornecer
+// um valor padrão sem precisar escrever um bloco if.*/
