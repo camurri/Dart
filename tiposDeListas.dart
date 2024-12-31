@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_null_comparison, unused_local_variable
+
 void main() {
   // Lista que aceita elementos nulos.
   // O tipo da lista é `String?`, o que significa que pode conter strings ou nulos.

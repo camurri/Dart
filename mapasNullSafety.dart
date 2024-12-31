@@ -1,4 +1,6 @@
-https://www.udemy.com/course/curso-completo-flutter-app-android-ios/learn/lecture/29252532#questions/4836278
+// ignore_for_file: unnecessary_null_comparison
+
+//https://www.udemy.com/course/curso-completo-flutter-app-android-ios/learn/lecture/29252532#questions/4836278
 void main() {
   Map<int, String?>? ddds = {19: 'Jundiaí'};
   ddds; // Declaração de um mapa ddds que pode iniciar nulo (Map<int, String>?).
