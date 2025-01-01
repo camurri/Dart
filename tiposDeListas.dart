@@ -6,10 +6,10 @@ void main() {
   List<String?> lista1 = ['Paulo', 'Sergio', null]; // Permite adicionar `null` na lista.
   lista1.add('dados'); // Permite adicionar strings à lista.
 
-  // Lista que não aceita elementos nulos.
+  // Lista que aceita elementos nulos.
   // O tipo da lista é `String`, portanto, só pode conter strings e não pode conter `null`.
   List<String> lista2 = ['Paulo', 'Sergio'];
-  lista2.add('dados'); // Permite adicionar strings à lista.
+  lista2.add('dados'); // Não permite adicionar strings à lista.
 
   // Lista que pode ser inicializada como `null`.
   // O tipo da lista é `List<String>?`, o que significa que a lista pode ser nula ou conter strings.
