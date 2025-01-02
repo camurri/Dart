@@ -1,24 +1,24 @@
-enum StatusControle { deslidado, ligado, standBy }
+// enum StatusControle { deslidado, ligado, standBy }
 
-enum StatusBotao { pressionado, aberto }
+// enum StatusBotao { pressionado, aberto }
 
-void main() {
-  ligar();
+// void main() {
+//   ligar();
 
-  aumentarVolume();
-}
+//   aumentarVolume();
+// }
 
-void ligar() {
-  bool ligado = false;
-  if (ligado != false) {
-    print('está ligado!');
-  }
+// void ligar() {
+//   bool ligado = false;
+//   if (ligado != false) {
+//     print('está ligado!');
+//   }
 
-  void aumentarVolume() {
-    int volume = 0;
+//   void aumentarVolume() {
+//     int volume = 0;
 
-    if (StatusBotao.pressionado == true) {
-      volume++;
-    }
-  }
-}
+//     if (StatusBotao.pressionado == true) {
+//       volume++;
+//     }
+//   }
+// }
